@@ -34,10 +34,7 @@ header{
   padding: 1rem 5%;
 }
 .mobile-nav{
-  background-color: grey;
-  width: 2rem;
-  height: 1px;
-  position: relative;
+  display: none;
 }
 .mobile-nav::after{
   content: '';
@@ -119,9 +116,9 @@ a{
 .btn-signup{
   outline: none;
   border: none;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 2rem;
   background: var(--Cyan);
-  border-radius: 1rem;
+  border-radius: 2rem;
   font-family: inherit;
 }
 button{
@@ -503,5 +500,12 @@ footer li{
   .btn-signup-wrapper .btn-signup{
     width: 100%;
     border-radius: 2rem;
+  }
+  .mobile-nav{
+    display: block;
+    background-color: grey;
+    width: 2rem;
+    height: 1px;
+    position: relative;
   }
 }
